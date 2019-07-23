@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "open": "cd android && gradlew clean && cd .. && react-native run-android"
   },
   "dependencies": {
     "react": "16.8.6",
